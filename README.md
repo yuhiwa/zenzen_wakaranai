@@ -1,0 +1,1 @@
+# zenzen_wakaranai
