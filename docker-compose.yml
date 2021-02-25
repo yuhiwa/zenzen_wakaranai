@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dev-slackbot:
+    build:
+      context: .
+    restart: always
+    container_name: dev-slackbot
+    env_file:
+      - .py.env
+    volumes:
+      - ./plugins:/slackbot/plugins
+
+
