@@ -10,5 +10,4 @@ services:
       - .py.env
     volumes:
       - ./plugins:/slackbot/plugins
-
-
+      - ./plugins:/opt/build/slackbot/plugins
